@@ -1,8 +1,8 @@
 # Django 101 Workshop
 
-## This is a basic hands-on introduction to the Django Framework. We will learn about the basics of Django with the Django Request-Response cycle as our blueprint: http://rnevius.github.io/django_request_response_cycle.png
+### This is a basic hands-on introduction to the Django Framework. We will learn about the basics of Django with the Django Request-Response cycle as our blueprint: http://rnevius.github.io/django_request_response_cycle.png
 
-## The following concepts will be touched on:
+### The following concepts will be touched on:
 - URLs and Routing
 - Function Based Views
 - Templates & Rendering
@@ -12,4 +12,4 @@
 - Login & Authentication
 - Django Admin
 
-## More information coming soon!
+#### More information coming soon!
