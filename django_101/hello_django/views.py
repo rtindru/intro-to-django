@@ -6,3 +6,7 @@ from django.shortcuts import render
 
 def hello_django(request):
     return HttpResponse('Hello Django!')
+
+
+def hello_user(request, user):
+    return HttpResponse('Hello ' + user + '!')
