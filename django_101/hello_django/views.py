@@ -14,3 +14,7 @@ def hello_user(request, user):
 
 def hello_template(request, user):
     return render(request, 'hello.html', {'user': user})
+
+
+def hello_template_two(request, user):
+    return render(request, 'hello_two.html', {'user': user})
