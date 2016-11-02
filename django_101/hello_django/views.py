@@ -10,3 +10,7 @@ def hello_django(request):
 
 def hello_user(request, user):
     return HttpResponse('Hello ' + user + '!')
+
+
+def hello_template(request, user):
+    return render(request, 'hello_django/hello.html', {'user': user})
