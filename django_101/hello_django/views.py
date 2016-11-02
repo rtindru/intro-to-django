@@ -13,4 +13,4 @@ def hello_user(request, user):
 
 
 def hello_template(request, user):
-    return render(request, 'hello_django/hello.html', {'user': user})
+    return render(request, 'hello.html', {'user': user})
