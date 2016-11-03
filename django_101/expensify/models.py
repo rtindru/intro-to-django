@@ -16,6 +16,6 @@ class Transaction(models.Model):
     created_at = models.DateTimeField(auto_now=True)
     updated_at = models.DateTimeField(auto_now_add=True)
 
-    def __unicode__(self):
+    def __str__(self):
         return "{}, {}-{}".format(self.user, self.amount, self.type)
 
