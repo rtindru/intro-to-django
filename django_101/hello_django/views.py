@@ -26,3 +26,4 @@ class HelloDjangoView(TemplateView):
 
     def get_context_data(self, user, **kwargs):
         return {'user': user}
+
