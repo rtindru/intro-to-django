@@ -9,7 +9,7 @@ TRANSACTION_TYPES = (
 
 
 class Transaction(models.Model):
-    user = models.ForeignKey(User)
+    user = models.ForeignKey(User, null=True, blank=True, default=None)
     amount = models.DecimalField(decimal_places=2, max_digits=10)
     type = models.CharField(choices=TRANSACTION_TYPES, default='DE', max_length=3)
     description = models.TextField(null=True, blank=True, default=None)
